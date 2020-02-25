@@ -10,13 +10,13 @@
   <body>
     <nav class="uk-navbar-container uk-box-shadow-medium uk-margin-medium-bottom" uk-navbar>
       <div class="uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+        <a class="uk-navbar-item uk-logo" href="{{ '/' | relative_url }}">Logo</a>
         <ul class="uk-navbar-nav">
           <li>
-            <a href="/">Home</a>
+            <a href="{{ '/' | relative_url }}">Home</a>
           </li>
           <li>
-            <a href="/tier-list">Tier List</a>
+            <a href="{{ '/tier-list' | relative_url }}">Tier List</a>
           </li>
         </ul>
       </div>
